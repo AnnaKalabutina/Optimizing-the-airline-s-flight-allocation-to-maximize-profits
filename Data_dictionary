@@ -1,0 +1,47 @@
+Dataset Description: Flight Purchase and Passenger Data
+This dataset contains information about flight purchases, passenger types, payment methods, and route details. It is suitable for analyzing purchase behaviors, revenue generation, and the influence of loyalty programs on passenger choices.
+________________________________________
+Fields in the Dataset
+Purchase and Flight Information
+•	ISSUE_DATE: The date the ticket was purchased.
+•	FLIGHT_DATE_LOC: The date of the flight (local time).
+Passenger Information
+•	PAX_TYPE: Type of passenger.
+o	AD: Adult.
+o	CHD: Child.
+o	INF: Undefined (infant or not classified).
+o	FIM: Family.
+Revenue and Payment Details
+•	REVENUE_AMOUNT: Total revenue generated from the ticket purchase.
+•	FOP_TYPE_CODE: Method of payment used for the purchase.
+o	AH, AI, IN: Invoice payment.
+o	BN: Bonus points.
+o	CA: Cash.
+o	CC: Credit card.
+o	DP: Dynamic pricing.
+o	EX, MC: Unclassified or other methods.
+o	FF: Frequent-flyer miles.
+o	FS: Partial payment with miles.
+o	LS: 10% discount.
+o	PS: Gift.
+o	VO: Voucher.
+Route and Flight Information
+•	ORIG_CITY_CODE: Code of the origin airport.
+•	DEST_CITY_CODE: Code of the destination airport.
+•	ROUTE_FLIGHT_TYPE: Type of flight route.
+o	ВВЛ: Domestic flights (Внутренние Воздушные Линии).
+o	МВЛ: International flights (Международные Воздушные Линии).
+Loyalty and Sales Details
+•	FFP_FLAG: Indicates the presence of a loyalty program (Frequent-Flyer Program).
+•	SALE_TYPE: Type or channel of purchase.
+________________________________________
+Applications of the Dataset
+1.	Revenue Analysis
+2.	Customer Loyalty Evaluation
+3.	Flight Route Patterns
+4.	Payment Preferences
+5.	Promotional Impact
+6.	Passenger Demographics
+________________________________________
+This dataset provides valuable insights for airlines to refine their pricing strategies, enhance loyalty programs, and improve customer segmentation.
+
