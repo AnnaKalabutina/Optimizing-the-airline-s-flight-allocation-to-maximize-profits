@@ -8,3 +8,13 @@ The total number of flights across all routes for the month cannot exceed 300.
 The total flight distance (kilometers flown) for the month must not exceed 750 000 km.
 A minimum of 8 flights must be operated on each of the 12 routes.
 No single route should account for more than 15% of the total number of flights.
+
+
+## Data
+Source: synthetic 
+Size: 50 000 lines
+
+## Instruments
+- Trend line analysis (linear, polynomial), coefficient of determination (R²), mean forecast method, standard deviation, moving average
+- Pivot Tables, WEEKNUM function, DATEVALUE function
+- Line charts amd area charts, scatter plots
